@@ -5,7 +5,11 @@ package de.rogallab.mobile
 
 fun main() {
 
-   // K02
-   // variables()
+   // K03
+   conditionals()
 
+}
+
+fun conditionals() {
+   TODO("Not yet implemented")
 }
