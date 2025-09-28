@@ -1,4 +1,4 @@
-package de.rogallab.mobile.k03
+package k03
 
 
 fun control_structures() {

@@ -1,4 +1,4 @@
-package de.rogallab.mobile.k02
+package k02
 
 
 fun variables() {

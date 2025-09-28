@@ -1,8 +1,3 @@
-package de.rogallab.mobile
-
-
-
-
 fun main() {
 
    // K03
