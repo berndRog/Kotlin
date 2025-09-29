@@ -1,7 +1,6 @@
 package k03
 
-
-fun control_structures() {
+fun conditionals() {
 
    println("\nCONTROL STRUCTUREs IN KOTLIN")
    println("\nif - else if - else")
