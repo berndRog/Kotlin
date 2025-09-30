@@ -4,7 +4,7 @@ class Student(
    name:String,
    gender: Char,
    val matrNr: Int,
-   override var wert: Double
+   override var wert: Double = 0.0
 ): APerson(name, gender) {
 
    override fun getAnrede() =

@@ -67,8 +67,8 @@ fun collections() {
    }
 
    // unsafe cast to MutableList<T>
-   var mutableValues = values as MutableList<Int>
-   mutableValues.add(6)  // ok: MutableList<T> is mutable
+   // var mutableValues = values as MutableList<Int>
+   // mutableValues.add(6)  // ok: MutableList<T> is mutable
 
    // is -> type cast as included
    if(values is MutableList<Int>) {
