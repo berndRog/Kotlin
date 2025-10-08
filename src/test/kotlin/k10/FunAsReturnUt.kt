@@ -1,21 +1,13 @@
 package k10
 
+import k10.ue4.makeGreeting
 import org.junit.Test
 import kotlin.test.assertEquals
 
 class FunAsReturnUt {
 
-   fun makeGreeting(language: String): (String) -> String {
-      return when (language.lowercase()) {
-         "de" -> { name -> "Hallo $name!" }
-         "en" -> { name -> "Hello $name!" }
-         "fr" -> { name -> "Bonjour $name!" }
-         else -> { name -> "Hi $name!" }
-      }
-   }
-
    @Test
-   fun `makeGreeting german ok`() {
+   fun makeGreeting_german_ok() {
       // arrange
       val expected = "Hallo Bernd!"
       // act
