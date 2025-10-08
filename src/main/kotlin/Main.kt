@@ -24,10 +24,10 @@ fun main() {
 //   usePoly()
 
    // K09
-   useApply()
-   useLet()
-   useAlso()
-   useRun()
+//   useApply()
+//   useLet()
+//   useAlso()
+//   useRun()
 
    /*
    // K10
