@@ -1,7 +1,7 @@
 package k11.data
 
-fun mutableListOfPeople(): MutableList<Person> =
-   mutableListOf<Person>(
+fun listOfPeople(): List<Person> =
+   listOf<Person>(
       Person("Alice", 29),
       Person("Bob", 31),
       Person("Chris", 35),

@@ -1,14 +1,13 @@
 package k11
 
 import k11.data.Person
-import k11.data.mutableListOfPeople
-import kotlin.collections.forEach
+import k11.data.listOfPeople
 
 fun operators() {
 
    // P E O P L E
    println("\nMap, List of people")
-   val people: MutableList<Person> = mutableListOfPeople()
+   val people: List<Person> = listOfPeople()
    people.forEach { person -> println(person.asString()) }
 
    val personAge30: Person? = people.firstOrNull { it.age == 30 }

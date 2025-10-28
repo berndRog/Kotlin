@@ -1,6 +1,5 @@
 package k11.data
 
-import de.rogallab.mobile.data.Product
 import java.util.UUID
 
 

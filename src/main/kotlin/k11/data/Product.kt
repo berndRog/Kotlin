@@ -1,4 +1,4 @@
-package de.rogallab.mobile.data
+package k11.data
 
 data class Product(
    val name:String,

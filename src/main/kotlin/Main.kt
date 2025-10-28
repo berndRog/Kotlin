@@ -1,4 +1,4 @@
-
+import k11.iterator
 
 fun main() {
 
@@ -29,20 +29,16 @@ fun main() {
 //   useAlso()
 //   useRun()
 
-   /*
+
    // K10
-   useFunAsParameter()
-   useFunThatReturnsFun()
-   useFunWithCurrying()
+//   useFunAsParameter()
+//   useFunThatReturnsFun()
+//   useFunWithCurrying()
 
    // K11
    iterator()
-   predicate()
-   aggregate()
-   filter()
+//   map()
+//   operators()
 
-   map()
-   operators()
-   */
 }
 
