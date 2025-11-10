@@ -1,4 +1,5 @@
 import k11.iterator
+import k12.runCoroutines
 
 fun main() {
 
@@ -36,9 +37,11 @@ fun main() {
 //   useFunWithCurrying()
 
    // K11
-   iterator()
+//   iterator()
 //   map()
 //   operators()
 
+   //K12
+   runCoroutines()
 }
 

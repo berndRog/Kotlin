@@ -6,10 +6,10 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlin.coroutines.CoroutineContext
 
-fun CreateCoroutinesEnviroment(
+fun CreateCoroutineScope(
    dispatcher: CoroutineDispatcher,
    handleError: (String) -> Unit
-): Pair<CoroutineContext, CoroutineScope> {
+): CoroutineScope {
 
    // handle coroutine exceptions
    val coroutineExceptionHandler = CoroutineExceptionHandler { _, exception ->
@@ -23,6 +23,6 @@ fun CreateCoroutinesEnviroment(
    // create a coroutine scope
    val coroutineScope = CoroutineScope(coroutineContext)
 
-   return Pair(  coroutineContext, coroutineScope)
+   return  coroutineScope
 
 }
